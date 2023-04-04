@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <nav class="navbar"> 
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    <section id="home">
+     <div class="main" >
+        <h1>I'M <span class="auto-input"></span> </h1>
+        <button class="btn">
+            Hire Me
+        </button>
+     </div>  
+    </section>
+
+    <section id="about">
+        <hi class="headings">About Me</hi>
+        <div id="pic">
+            <img src="imgs/IMG_20230216_125745~2.jpg" alt="">
+            <div id="intro">
+                <h2>JEFFERSON GITHINJI</h2>
+                <p>I am versatile web designer due to my extensive history in graphic and web design. My dedication to continuously learning about new web design trends and concepts has made me a valuable member of the team. With eight years of experience and a master's in web design, my expertise can help customers modernize with websites and appeal to expanding customer populations.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <hi class="headings">Portfolio</hi>
+        <div class="gallery">
+            <img src="imgs/1.1.jpg" alt="">
+            <img src="imgs/1.7.jpg" alt="">
+            <img src="imgs/sda.jpg" alt="">
+            <img src="imgs/1.4.jpg" alt="">
+            <img src="imgs/1.5.jpg" alt="">
+            <img src="imgs/1.8.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="services">
+        <h1 class="headings">Services</h1>
+        <div class="row">
+            <div class="box">
+                <img src="imgs/xsa.jpg" alt="">
+                <h1 class="headings">Website Design</h1>
+                <p>My custom web design services are the outcomes of a collaborated process.I work closely with aspiring clients like you to ensure thta the site truly represents your brand.</p>
+                
+            </div>
+            <div class="box">
+                <img src="imgs/ui.png" alt="">
+                <h1 class="headings">Ui/Ux <br> Design</h1>
+                <p> I am specialized in creating beautiful and smooth UI/UX designs that provide better user experience by incorporating effective collaboration, streamlined projects which strive for better results.</p>
+        </div>
+        <div class="box">
+            <img src="imgs/dgm.png" alt="">
+            <h1 class="headings">Digital Marketing</h1>
+            <p>I can create and distribute industry-related information through your website or other channels like social media platforms or emails.By crating digital marketing content with various goals in mind — from wanting to increase rank in search.</p>
+            
+        </div>
+    </section>
+     <section id="contact">
+        <h1 class="headings">Contact</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+     </section>
+     <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+     <script>
+        var typed = new Typed(".auto-input",{
+            strings: ["Jefferson Githinji", "Web Developer", "UI Designer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+     </script>
+  </body>
+  </html>
